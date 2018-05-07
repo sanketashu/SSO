@@ -1,0 +1,7 @@
+D:\SingleSignOn\Entity.Layer\bin\Debug\Entity.Layer.dll
+D:\SingleSignOn\Entity.Layer\bin\Debug\Entity.Layer.pdb
+D:\SingleSignOn\Entity.Layer\bin\Debug\Newtonsoft.Json.dll
+D:\SingleSignOn\Entity.Layer\bin\Debug\Newtonsoft.Json.xml
+D:\SingleSignOn\Entity.Layer\obj\Debug\Entity.Layer.csprojResolveAssemblyReference.cache
+D:\SingleSignOn\Entity.Layer\obj\Debug\Entity.Layer.dll
+D:\SingleSignOn\Entity.Layer\obj\Debug\Entity.Layer.pdb

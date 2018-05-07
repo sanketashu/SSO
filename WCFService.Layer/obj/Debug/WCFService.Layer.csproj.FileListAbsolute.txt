@@ -1,0 +1,15 @@
+D:\SingleSignOn\WCFService.Layer\bin\Debug\WCFService.Layer.dll
+D:\SingleSignOn\WCFService.Layer\bin\Debug\WCFService.Layer.pdb
+D:\SingleSignOn\WCFService.Layer\bin\Debug\BAL.Layer.dll
+D:\SingleSignOn\WCFService.Layer\bin\Debug\Entity.Layer.dll
+D:\SingleSignOn\WCFService.Layer\bin\Debug\WCFContract.Layer.dll
+D:\SingleSignOn\WCFService.Layer\bin\Debug\DAL.Layer.dll
+D:\SingleSignOn\WCFService.Layer\bin\Debug\Newtonsoft.Json.dll
+D:\SingleSignOn\WCFService.Layer\bin\Debug\BAL.Layer.pdb
+D:\SingleSignOn\WCFService.Layer\bin\Debug\Entity.Layer.pdb
+D:\SingleSignOn\WCFService.Layer\bin\Debug\WCFContract.Layer.pdb
+D:\SingleSignOn\WCFService.Layer\bin\Debug\DAL.Layer.pdb
+D:\SingleSignOn\WCFService.Layer\bin\Debug\Newtonsoft.Json.xml
+D:\SingleSignOn\WCFService.Layer\obj\Debug\WCFService.Layer.csprojResolveAssemblyReference.cache
+D:\SingleSignOn\WCFService.Layer\obj\Debug\WCFService.Layer.dll
+D:\SingleSignOn\WCFService.Layer\obj\Debug\WCFService.Layer.pdb

@@ -1,0 +1,9 @@
+D:\SingleSignOn\WCFContract.Layer\bin\Debug\WCFContract.Layer.dll
+D:\SingleSignOn\WCFContract.Layer\bin\Debug\WCFContract.Layer.pdb
+D:\SingleSignOn\WCFContract.Layer\bin\Debug\Entity.Layer.dll
+D:\SingleSignOn\WCFContract.Layer\bin\Debug\Newtonsoft.Json.dll
+D:\SingleSignOn\WCFContract.Layer\bin\Debug\Entity.Layer.pdb
+D:\SingleSignOn\WCFContract.Layer\bin\Debug\Newtonsoft.Json.xml
+D:\SingleSignOn\WCFContract.Layer\obj\Debug\WCFContract.Layer.csprojResolveAssemblyReference.cache
+D:\SingleSignOn\WCFContract.Layer\obj\Debug\WCFContract.Layer.dll
+D:\SingleSignOn\WCFContract.Layer\obj\Debug\WCFContract.Layer.pdb

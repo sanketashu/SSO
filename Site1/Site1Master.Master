@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1Master.master.cs" Inherits="Site1.Site1Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Style/style.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="text-align: center">
+            <div style="background-color: #c6c6c6">
+                <h1>This is Site 1</h1>
+            </div>
+            <div style="float: right"><a href="Login.aspx">Login</a>&nbsp&nbsp|&nbsp&nbsp<a href="Register.aspx">Register</a>&nbsp&nbsp|&nbsp&nbsp<asp:LinkButton ID="lnkLogout" runat="server" OnClick="lnkLogout_Click">Logout</asp:LinkButton></div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

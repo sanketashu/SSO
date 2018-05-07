@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1Master.master.cs" Inherits="Site1.Site1Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        var ApplicationPath = '<%= this.ResolveClientUrl(Request.ApplicationPath) %>' + "/";
+        if (ApplicationPath[ApplicationPath.length - 1] == ApplicationPath[ApplicationPath.length - 2]) {
+            ApplicationPath = ApplicationPath.substring(0, ApplicationPath.length - 1);
+        }
+    </script>
+    <link href="Style/style.css" rel="stylesheet" />
+    <script type="text/javascript" src="Scripts/jquery-3.3.1.js"></script>
+    <script src="Scripts/JsUtil.js"></script>
+    <script>
+
+        $(window).on('load', function() {
+            let x = getCookie('UserName');
+            if (x) {
+                LoggendInDetails(x);
+            }
+            else {
+                window.location.replace = 'Login.aspx';
+            }
+        });
+
+        $(document).ready(function () {
+            //debugger;
+            //check if cookies exist then fetch the user information form the database 
+            //else redirect to login page
+            //let x = getCookie('UserName');
+            //if (x) {
+            //    LoggendInDetails(x);
+            //}
+            //else {
+            //    window.location.href = 'Login.aspx';
+            //}
+
+            function LoggendInDetails(UserName) {
+                let oEntity = {};
+                oEntity.UserName = UserName;
+
+                let param = {
+                    oEntity: oEntity
+                }
+                $.ajax({
+                    method: 'POST',
+                    url: ApplicationPath + 'LoggedUser/Retrieve',
+                    data: JSON.stringify(param),
+                    contentType: 'application/json; charset=UTF-8',
+                    dataType: 'json',
+                    success: (data) => {
+                        console.log(data);//check IsLoggedInNow if 1 then redirect to page else login page
+                    },
+                    error: (jqXHR, textStatus, errorThrown) => {
+                        alert('jqXHR:' + jqXHR + '\n, textStatus:' + textStatus + '\n, errorThrown:' + errorThrown);
+                    }
+                })
+
+            }
+        });
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="text-align: center">
+            <div style="background-color: #c6c6c6">
+                <h1>This is Site 1</h1>
+            </div>
+            <div style="float: right"><a href="Login.aspx">Login</a>&nbsp&nbsp|&nbsp&nbsp<a href="Register.aspx">Register</a></div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

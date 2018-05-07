@@ -1,0 +1,9 @@
+D:\SingleSignOn\DAL.Layer\bin\Debug\DAL.Layer.dll
+D:\SingleSignOn\DAL.Layer\bin\Debug\DAL.Layer.pdb
+D:\SingleSignOn\DAL.Layer\bin\Debug\Entity.Layer.dll
+D:\SingleSignOn\DAL.Layer\bin\Debug\Newtonsoft.Json.dll
+D:\SingleSignOn\DAL.Layer\bin\Debug\Entity.Layer.pdb
+D:\SingleSignOn\DAL.Layer\bin\Debug\Newtonsoft.Json.xml
+D:\SingleSignOn\DAL.Layer\obj\Debug\DAL.Layer.csprojResolveAssemblyReference.cache
+D:\SingleSignOn\DAL.Layer\obj\Debug\DAL.Layer.dll
+D:\SingleSignOn\DAL.Layer\obj\Debug\DAL.Layer.pdb
